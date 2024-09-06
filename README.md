@@ -11,8 +11,8 @@
 ## What I'm working on/planning to work on
 
 ### CodingOH
-- ![GitHub Repo](https://github.com/jesuschrist-immanuel/stack-overflow-clone/)
-- ![About CodingOH](https://www.notion.so/CodingOH-Docs-67de2dbf28694086bbf3d59baa1fa10b)
+- [![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jesuschrist-immanuel/stack-overflow-clone/)
+- [![About CodingOH](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so/CodingOH-Docs-67de2dbf28694086bbf3d59baa1fa10b)
 - Overview: Stack Overflow with added video conferencing functionality to speed development and make coding human again!
 
 ### Academic Path-Planning GNN (Graph Neural Network)
