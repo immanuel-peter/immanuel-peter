@@ -8,14 +8,26 @@
 - Short term: become a Machine Learning/Artificial Intelligence Engineering intern during college
 - Long term: found many developer-friendly companies and become a serial entrepreneur/technologist
 
-## What I'm working on/planning to work on
+## My Work
 
-### CodingOH
+### Previous Worked On
+
+#### Twitter Bot (OpenAI, Tweepy, GitHub Actions)
+[![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jesuschrist-immanuel/codingoh_x_bot)
+[![X Bot](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/codingoh)
+[![LinkedIn Post](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/posts/immanuel-peter_github-jesuschrist-immanuelcodingohxbot-activity-7234660953030582272-aT0z?utm_source=share&utm_medium=member_desktop)
+
+
+### Currently Working On
+
+#### CodingOH
 [![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jesuschrist-immanuel/stack-overflow-clone/)
 [![About CodingOH](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so/CodingOH-Docs-67de2dbf28694086bbf3d59baa1fa10b)
 - Overview: Stack Overflow with added video conferencing functionality to speed development and make coding human again!
 
-### Academic Path-Planning GNN (Graph Neural Network)
+### Planning to Work On
+
+#### Academic Path-Planning GNN (Graph Neural Network)
 - Learning about whether academic path planning in college can have applications utilizing GNNs
 - Likely tech stack would be
   - PyTorch (PyTorch Geometric) or TensorFlow (TensorFlow GNN) for model training and deployment
