@@ -1,4 +1,4 @@
-# Immanuel Peter - Computer Science Student at the University of Chicago | Aspiring ML/AI Engineer
+# Immanuel Peter - CS Student at UChicago | Aspiring ML/AI Engineer
 
 ## About me
 - Freshman at the University of Chicago studying Computer Science (possibly also Physics)
