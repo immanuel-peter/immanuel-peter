@@ -1,12 +1,12 @@
 
-# Immanuel Peter - CS Student at UChicago | Aspiring AI Engineer (Tesla FSD)
+# Immanuel Peter - CS Student at UChicago | Aspiring AI Engineer
 
 ## About me
 - Freshman at the University of Chicago studying Computer Science (with strong interests in Physics and Math)
 - Interested in neural network training, software infrastructure, and machine learning deployment pipelines
 
 ## My goals
-- **Short term**: Become an AI Engineering intern on the Tesla FSD team
+- **Short term**: Become an AI Engineering intern on the Tesla FSD or Waymo Driver team
 - **Long term**: Build developer-first platforms and found tech companies that blend deep engineering with user simplicity
 
 ## My Work
