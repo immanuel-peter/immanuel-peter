@@ -1,50 +1,50 @@
+# Immanuel Peter – CS, Physics & Math Student at UChicago | Aspiring AI Engineer
 
-# Immanuel Peter - CS Student at UChicago | Aspiring AI Engineer
+![Profile Views](https://komarev.com/ghpvc/?username=immanuel-peter)
 
-## About me
-- Freshman at the University of Chicago studying Computer Science (with strong interests in Physics and Math)
-- Interested in neural network training, software infrastructure, and machine learning deployment pipelines
+## About Me
 
-## My goals
-- **Short term**: Become an AI Engineering intern on the Tesla FSD or Waymo Driver team
-- **Long term**: Build developer-first platforms and found tech companies that blend deep engineering with user simplicity
+- **Student at the University of Chicago** majoring in Computer Science, Physics and Mathematics.
+- Focused on neural network training, machine learning infrastructure, and autonomous systems.
+- Passionate about bridging research with real world applications, from model design to deployment pipelines.
 
-## My Work
+## Goals
 
-### Projects
+- **Short term**: Become an AI Engineering intern on the Tesla FSD or Waymo Driver team.
+- **Long term**: Build developer‑first platforms and found tech companies that blend deep engineering with user simplicity.
 
-#### LocalRAG – Terminal-based LLM with Infinite Memory
+## Projects
+
+### AutoMoE – Mixture‑of‑Experts Self‑Driving Model
+
+[![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/self-driving-model)
+
+- Developing a modular **Mixture‑of‑Experts (MoE)** architecture for autonomous driving within the CARLA simulator.
+- Combines multiple specialized perception experts (object detection, drivable area segmentation, etc.) using a learned gating network to handle diverse driving contexts.
+- Built high‑performance data pipelines and multi‑GPU training scripts (DistributedDataParallel) for large autonomous driving datasets including **BDD100K**, **nuScenes** and **CARLA**.
+
+### Semantic Image Search
+
+[![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/semantic-image-search)
+
+- Full‑stack application for semantic image retrieval powered by **OpenAI’s CLIP model**.
+- **Next.js** frontend (TypeScript & Tailwind CSS) provides a responsive interface for text‑based search.
+- **FastAPI** backend indexes images and computes CLIP embeddings to find and return similar images.
+
+### LocalRAG – Terminal‑based LLM with Infinite Memory
+
 [![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/localrag)
-- A terminal-based LLM chat tool with infinite memory through FAISS-powered local vector search
-- Designed to turn your terminal into a Claude/GPT-like chat interface with persistent, searchable memory
-- 100% local and privacy-respecting
 
-#### ipeter.tech – My Personal Portfolio
-[![Website](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://ipeter.tech)
-[![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/digital-resume)
-- My digital homepage highlighting projects, academic progress, and technical interests
-- Includes resume, contact links, and my evolving journey in AI, software engineering, and entrepreneurship
-- Also has an AI chatbot, ImmanuelAI, to answer any questions on behalf of me
+- A terminal‑based LLM chat tool with infinite memory through **FAISS‑powered** local vector search.
+- Designed to turn your terminal into a Claude/GPT‑like chat interface with persistent, searchable memory.
+- 100% local and privacy‑respecting.
 
-## Contact me
+## Portfolio
+
+Visit my digital homepage at [ipeter.tech](https://ipeter.tech) for my resume, academic progress, and evolving journey in AI, software engineering and entrepreneurship. You can also interact with **ImmanuelAI**, a chatbot that answers questions on my behalf.
+
+## Contact Me
+
 [![Outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:ipeter@uchicago.edu)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/immanuel-peter/)
 [![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/moby763canary21)
-
-
-
-
-<!--
-**jesuschrist-immanuel/jesuschrist-immanuel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
