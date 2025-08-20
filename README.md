@@ -23,6 +23,14 @@
 - Combines multiple specialized perception experts (object detection, drivable area segmentation, etc.) using a learned gating network to handle diverse driving contexts.
 - Built high‑performance data pipelines and multi‑GPU training scripts (DistributedDataParallel) for large autonomous driving datasets including **BDD100K**, **nuScenes** and **CARLA**.
 
+### CARLA Autopilot Images Dataset
+
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-dataset-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/datasets/immanuel-peter/carla-autopilot-images)
+
+- Open, multi-camera dataset (~188 GB, ≈68k frames) with synchronized RGB images, ego pose/velocity, control signals, traffic density, and collision logs.
+- Collected in **CARLA** using synchronous stepping (Δt = 0.05 s), variable weather, and controllable NPC traffic; fixed extrinsics for front, front-left 45°, front-right 45°, and rear cameras.
+- Packaged for **Hugging Face Datasets** with stable splits (56.2k/4.8k/7.2k) and a reproducible collection pipeline derived from **AutoMoE**. Suitable for imitation learning, vision-to-control, and sensor-fusion benchmarks.
+
 ### Semantic Image Search
 
 [![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/semantic-image-search)
