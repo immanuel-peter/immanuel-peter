@@ -6,22 +6,30 @@
 
 - **Student at the University of Chicago** majoring in Computer Science, Physics and Mathematics.
 - Focused on neural network training, machine learning infrastructure, and autonomous systems.
-- Passionate about bridging research with real world applications, from model design to deployment pipelines.
+- Passionate about bridging research with real world applications, from model design to deployment pipelines.
 
 ## Goals
 
 - **Short term**: Become an AI Engineering intern on the Tesla FSD or Waymo Driver team.
-- **Long term**: Build developer‑first platforms and found tech companies that blend deep engineering with user simplicity.
+- **Long term**: Build developer-first platforms and found tech companies that blend deep engineering with user simplicity.
 
 ## Projects
 
-### AutoMoE – Mixture‑of‑Experts Self‑Driving Model
+### AutoMoE – Mixture-of-Experts Self-Driving Model
 
 [![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/self-driving-model)
 
-- Developing a modular **Mixture‑of‑Experts (MoE)** architecture for autonomous driving within the CARLA simulator.
+- Developing a modular **Mixture-of-Experts (MoE)** architecture for autonomous driving within the CARLA simulator.
 - Combines multiple specialized perception experts (object detection, drivable area segmentation, etc.) using a learned gating network to handle diverse driving contexts.
-- Built high‑performance data pipelines and multi‑GPU training scripts (DistributedDataParallel) for large autonomous driving datasets including **BDD100K**, **nuScenes** and **CARLA**.
+- Built high-performance data pipelines and multi-GPU training scripts (DistributedDataParallel) for large autonomous driving datasets including **BDD100K**, **nuScenes** and **CARLA**.
+
+### CARLA Autopilot Multimodal Dataset
+
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-dataset-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/datasets/immanuel-peter/carla-autopilot-multimodal-dataset)
+
+- Large-scale multimodal dataset (~365 GB, ≈82k frames) with synchronized RGB images, semantic segmentation, LiDAR point clouds, 2D bounding boxes, ego-vehicle states, and rich environment metadata.
+- Designed for research in **object detection, segmentation, sensor fusion, imitation learning, and reinforcement learning**.
+- Built on CARLA with varied weather, maps, and controllable traffic; packaged for **Hugging Face Datasets** with train/val/test splits and reproducible pipelines.
 
 ### CARLA Autopilot Images Dataset
 
@@ -35,17 +43,17 @@
 
 [![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/semantic-image-search)
 
-- Full‑stack application for semantic image retrieval powered by **OpenAI’s CLIP model**.
-- **Next.js** frontend (TypeScript & Tailwind CSS) provides a responsive interface for text‑based search.
+- Full-stack application for semantic image retrieval powered by **OpenAI’s CLIP model**.
+- **Next.js** frontend (TypeScript & Tailwind CSS) provides a responsive interface for text-based search.
 - **FastAPI** backend indexes images and computes CLIP embeddings to find and return similar images.
 
-### LocalRAG – Terminal‑based LLM with Infinite Memory
+### LocalRAG – Terminal-based LLM with Infinite Memory
 
 [![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/localrag)
 
-- A terminal‑based LLM chat tool with infinite memory through **FAISS‑powered** local vector search.
-- Designed to turn your terminal into a Claude/GPT‑like chat interface with persistent, searchable memory.
-- 100% local and privacy‑respecting.
+- A terminal-based LLM chat tool with infinite memory through **FAISS-powered** local vector search.
+- Designed to turn your terminal into a Claude/GPT-like chat interface with persistent, searchable memory.
+- 100% local and privacy-respecting.
 
 ## Portfolio
 
