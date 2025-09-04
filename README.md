@@ -19,9 +19,9 @@
 
 [![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/self-driving-model)
 
-- Developing a modular **Mixture-of-Experts (MoE)** architecture for autonomous driving within the CARLA simulator.
-- Combines multiple specialized perception experts (object detection, drivable area segmentation, etc.) using a learned gating network to handle diverse driving contexts.
-- Built high-performance data pipelines and multi-GPU training scripts (DistributedDataParallel) for large autonomous driving datasets including **BDD100K**, **nuScenes** and **CARLA**.
+- **Description**: Developed a modular **Mixture-of-Experts (MoE)** architecture for autonomous driving within the CARLA simulator. The model combines multiple specialized perception experts (object detection, drivable area segmentation) using a learned gating network to handle diverse driving contexts.
+- **Infrastructure**: Built high-performance data pipelines and multi-GPU training scripts (DistributedDataParallel) for large autonomous driving datasets including **BDD100K**, **nuScenes** and **CARLA**.
+- **Status & Lessons Learned**: This project is currently paused. While the end-to-end system was completed, it fell short of performance expectations. The experience provided valuable lessons in the importance of thorough literature review, robust evaluation pipelines, and systematic hyperparameter tuning before scaling up training. The project resulted in reusable CARLA pipelines and two large-scale public datasets for the autonomous driving community. For a full breakdown, see the project's [SHORTCOMINGS.md](https://github.com/immanuel-peter/self-driving-model/blob/main/SHORTCOMINGS.md) file.
 
 ### CARLA Autopilot Multimodal Dataset
 
@@ -57,7 +57,7 @@
 
 ## Portfolio
 
-Visit my digital homepage at [ipeter.tech](https://ipeter.tech) for my resume, academic progress, and evolving journey in AI, software engineering and entrepreneurship. You can also interact with **ImmanuelAI**, a chatbot that answers questions on my behalf.
+Visit my digital homepage at [ipeter.dev](https://ipeter.dev) for my resume, academic progress, and evolving journey in AI, software engineering and entrepreneurship. You can also interact with **ImmanuelAI**, a chatbot that answers questions on my behalf.
 
 ## Contact Me
 
