@@ -1,4 +1,4 @@
-# Immanuel Peter – CS, Physics & Math Student at UChicago | Aspiring AI Engineer
+# Immanuel Peter – Student @ UChicago | Aspiring AI Engineer
 
 ![Profile Views](https://komarev.com/ghpvc/?username=immanuel-peter)
 
