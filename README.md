@@ -6,11 +6,10 @@
 
 - **Student at the University of Chicago** majoring in Computer Science, Physics and Mathematics.
 - Focused on neural network training, machine learning infrastructure, and autonomous systems.
-- Passionate about bridging research with real world applications, from model design to deployment pipelines.
 
 ## Goals
 
-- **Short term**: Become an AI Engineering intern on the Tesla FSD or Waymo Driver team.
+- **Short term**: Become an AI Engineering intern at a top-tier AI lab (Tesla, Waymo, NVIDIA, OpenAI, Deepmind, etc.)
 - **Long term**: Build developer-first platforms and found tech companies that blend deep engineering with user simplicity.
 
 ## Projects
