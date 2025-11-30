@@ -1,65 +1,84 @@
-# Immanuel Peter – Student @ UChicago | Aspiring AI Engineer
+# Immanuel Peter – Student @ UChicago
 
 ![Profile Views](https://komarev.com/ghpvc/?username=immanuel-peter)
 
-## About Me
+## 💡 About Me
 
-- **Student at the University of Chicago** majoring in Computer Science, Physics and Mathematics.
-- Focused on neural network training, machine learning infrastructure, and autonomous systems.
+- **Student at the University of Chicago** pursuing a BS in Computer Science and a BA in Physics (expected 2028).
+- Focused on building **scalable, production-grade software** and **deployable AI/ML systems**, with a strong foundation in systems, math, and engineering ownership.
+- Actively seeking **Software Engineering** or **AI/ML Engineering** internship roles for Summer 2026.
 
-## Goals
+## ✨ Flagship Engineering Work
 
-- **Short term**: Become an AI Engineering intern at a top-tier AI lab (Tesla, Waymo, NVIDIA, OpenAI, Deepmind, etc.)
-- **Long term**: Build developer-first platforms and found tech companies that blend deep engineering with user simplicity.
+These projects showcase demonstrated technical ownership, architecture, and real-world impact.
 
-## Projects
+### 1. Edusphere Matchbox
 
-### AutoMoE – Mixture-of-Experts Self-Driving Model
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-eduspheretech-blueviolet?style=for-the-badge&logo=vercel)](https://matchbox.eduspheretech.com)
 
-[![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/self-driving-model)
+- **AI-Driven Research Matchmaking Platform:** A scalable, serverless application that intelligently matches students to research labs using **semantic search** and **LLM-based compatibility scoring** to replace the cold-email process.
+- **Production Architecture (GCP):** Architected the entire solution on Google Cloud Platform (GCP) using **Cloud Run** and **Cloud Load Balancing**, orchestrated with **Terraform (IaC)** for reproducible deployment.
+- **Technical Stack:** Built a modern full-stack application with **Next.js 15 (React 19)** and a high-concurrency **FastAPI** backend, utilizing **ChromaDB** for vector storage and **Firestore** for data persistence.
+- **Impact:** Currently in pilot at the University of Chicago; designed for scaling to address academic communication and efficiency across higher education.
 
-- **Description**: Developed a modular **Mixture-of-Experts (MoE)** architecture for autonomous driving within the CARLA simulator. The model combines multiple specialized perception experts (object detection, drivable area segmentation) using a learned gating network to handle diverse driving contexts.
-- **Infrastructure**: Built high-performance data pipelines and multi-GPU training scripts (DistributedDataParallel) for large autonomous driving datasets including **BDD100K**, **nuScenes** and **CARLA**.
-- **Status & Lessons Learned**: This project is currently paused. While the end-to-end system was completed, it fell short of performance expectations. The experience provided valuable lessons in the importance of thorough literature review, robust evaluation pipelines, and systematic hyperparameter tuning before scaling up training. The project resulted in reusable CARLA pipelines and two large-scale public datasets for the autonomous driving community. For a full breakdown, see the project's [SHORTCOMINGS.md](https://github.com/immanuel-peter/self-driving-model/blob/main/SHORTCOMINGS.md) file.
+### 2. AutoMoE – Modular Self-Driving System & Datasets
 
-### CARLA Autopilot Multimodal Dataset
+[![GitHub Repo](https://img.shields.io/badge/Source%20Code-github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/self-driving-model)
+[![Multimodal Dataset](https://img.shields.io/badge/HuggingFace-Multimodal%20Dataset-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/datasets/immanuelpeter/carla-autopilot-multimodal-dataset)
 
-[![Hugging Face](https://img.shields.io/badge/HuggingFace-dataset-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/datasets/immanuel-peter/carla-autopilot-multimodal-dataset)
+- **Core System:** Developed a modular **Mixture-of-Experts (MoE)** architecture for autonomous driving in the CARLA simulator, utilizing specialized expert networks and a gating network for decision-making. Built with **PyTorch (DDP), CUDA, and Linux**.
+- **Data Contribution:** The project's pipeline resulted in two large-scale, public datasets for the autonomous driving research community:
+    - **CARLA Autopilot Multimodal Dataset** (~365 GB, 82k frames): Synchronized RGB, semantic segmentation, LiDAR, 2D boxes, and ego-vehicle states.
+    - **CARLA Autopilot Images Dataset** (~188 GB, 68k frames): Multi-camera images, control signals, and kinematics.
+- **Status & Learnings:** Currently paused. The process provided deep expertise in high-performance data pipelines, distributed training, and the challenges of deploying AI systems.
 
-- Large-scale multimodal dataset (~365 GB, ≈82k frames) with synchronized RGB images, semantic segmentation, LiDAR point clouds, 2D bounding boxes, ego-vehicle states, and rich environment metadata.
-- Designed for research in **object detection, segmentation, sensor fusion, imitation learning, and reinforcement learning**.
-- Built on CARLA with varied weather, maps, and controllable traffic; packaged for **Hugging Face Datasets** with train/val/test splits and reproducible pipelines.
+---
 
-### CARLA Autopilot Images Dataset
+## 💼 Experience Highlights
 
-[![Hugging Face](https://img.shields.io/badge/HuggingFace-dataset-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/datasets/immanuel-peter/carla-autopilot-images)
+### Software Engineering Intern, Quantum Rings (Summer 2025)
 
-- Open, multi-camera dataset (~188 GB, ≈68k frames) with synchronized RGB images, ego pose/velocity, control signals, traffic density, and collision logs.
-- Collected in **CARLA** using synchronous stepping (Δt = 0.05 s), variable weather, and controllable NPC traffic; fixed extrinsics for front, front-left 45°, front-right 45°, and rear cameras.
-- Packaged for **Hugging Face Datasets** with stable splits (56.2k/4.8k/7.2k) and a reproducible collection pipeline derived from **AutoMoE**. Suitable for imitation learning, vision-to-control, and sensor-fusion benchmarks.
+- **Ownership & Impact:** Drove reliability and scalability improvements by **diagnosing and fixing critical backend failures** and executing major schema refactoring with zero downtime.
+- **Scalable Systems Design:** Designed and deployed a **queue-driven execution processing** system to decouple heavy telemetry operations from the API, significantly **reducing request latency** and enabling horizontal scaling.
+- **Full-Stack Development:** Developed full-stack admin analytics dashboards (**NestJS, Next.js, Recharts**) with SQL time-bucket aggregation, providing **actionable insights** into user growth and execution volume.
+- **Reliable Data Flow:** Implemented a **fault-tolerant, SQS-based background worker** for telemetry aggregation and HubSpot CRM synchronization, ensuring reliable data delivery for downstream analytics and sales pipelines.
+- **Metrics & Observability:** Introduced circuit execution metrics (complexity, duration) and a KPI dashboard for **UTM-based marketing attribution**, directly supporting growth strategy.
 
-### Semantic Image Search
+---
 
-[![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/semantic-image-search)
+## 🛠️ Other Projects
 
-- Full-stack application for semantic image retrieval powered by **OpenAI’s CLIP model**.
-- **Next.js** frontend (TypeScript & Tailwind CSS) provides a responsive interface for text-based search.
-- **FastAPI** backend indexes images and computes CLIP embeddings to find and return similar images.
+### AI & ML
 
-### LocalRAG – Terminal-based LLM with Infinite Memory
+- **Qwen vLLM on GKE**: Cloud-native deployment pipeline for serving Qwen models on **GKE Autopilot**, provisioning NVIDIA T4 GPUs and deploying **vLLM** for a high-throughput, scalable inference endpoint.
+- **LocalRAG**: Terminal LLM chat with infinite memory via **FAISS-powered** local vector search, enabling persistent, context-aware conversations without external servers.
+- **Semantic Image Search**: Full-stack text-to-image retrieval: **FastAPI** backend, **CLIP** embeddings, and **Next.js/Tailwind** frontend.
 
-[![GitHub Repo](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/localrag)
+### Web & Software
 
-- A terminal-based LLM chat tool with infinite memory through **FAISS-powered** local vector search.
-- Designed to turn your terminal into a Claude/GPT-like chat interface with persistent, searchable memory.
-- 100% local and privacy-respecting.
+- **GovHub**: A civic software concept offering a GitHub-style workflow for legislation. Built with **React, Next.js, and TypeScript**.
+- **Portfolio (ipeter.dev)**: This site, featuring **ImmanuelAI**—an LLM assistant (represented by `biography.js`) designed to interactively answer technical questions for recruiters.
+- **AI Commit**: A **Bash utility** using the OpenAI API to automatically generate meaningful commit messages from staged diffs, improving engineering workflow quality.
 
-## Portfolio
+---
 
-Visit my digital homepage at [ipeter.dev](https://ipeter.dev) for my resume, academic progress, and evolving journey in AI, software engineering and entrepreneurship. You can also interact with **ImmanuelAI**, a chatbot that answers questions on my behalf.
+## 📚 Technical Skills
 
-## Contact Me
+| Category | Skills |
+| :--- | :--- |
+| **Languages** | Python, C++, Go, JavaScript/TypeScript, SQL |
+| **ML/AI** | PyTorch, JAX/Flax, NumPy, Pandas, FAISS, OpenAI/Anthropic APIs, Hugging Face |
+| **Systems/Infra** | Linux, Docker, Kubernetes, Git/GitHub, GitHub Actions, AWS, GCP, Terraform |
+| **Frameworks/Web** | React, Next.js, Node.js, FastAPI |
+| **Databases** | PostgreSQL, MySQL, MongoDB |
+
+## 🔗 Find Out More
+
+- **Digital Portfolio:** [ipeter.dev](https://ipeter.dev) (Includes resume and ImmanuelAI chat)
+- **Hugging Face Datasets:** [huggingface.co/immanuelpeter](https://huggingface.co/immanuelpeter)
+
+## 📫 Contact
 
 [![Outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:ipeter@uchicago.edu)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/immanuel-peter/)
-[![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/moby763canary21)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/)
