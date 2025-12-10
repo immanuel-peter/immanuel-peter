@@ -15,6 +15,7 @@ These projects showcase demonstrated technical ownership, architecture, and real
 ### 1. Edusphere Matchbox
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-eduspheretech-blueviolet?style=for-the-badge&logo=vercel)](https://matchbox.eduspheretech.com)
+[![Docs](https://img.shields.io/badge/Docs-Matchbox-0a7cff?style=for-the-badge&logo=readthedocs&logoColor=white)](https://ipeter.dev/matchbox)
 
 - **AI-Driven Research Matchmaking Platform:** A scalable, serverless application that intelligently matches students to research labs using **semantic search** and **LLM-based compatibility scoring** to replace the cold-email process.
 - **Production Architecture (GCP):** Architected the entire solution on Google Cloud Platform (GCP) using **Cloud Run** and **Cloud Load Balancing**, orchestrated with **Terraform (IaC)** for reproducible deployment.
