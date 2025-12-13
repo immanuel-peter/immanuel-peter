@@ -26,6 +26,7 @@ These projects showcase demonstrated technical ownership, architecture, and real
 
 [![GitHub Repo](https://img.shields.io/badge/Source%20Code-github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/immanuel-peter/self-driving-model)
 [![Multimodal Dataset](https://img.shields.io/badge/HuggingFace-Multimodal%20Dataset-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/datasets/immanuelpeter/carla-autopilot-multimodal-dataset)
+[![Docs](https://img.shields.io/badge/Docs-AutoMoE-0a7cff?style=for-the-badge&logo=readthedocs&logoColor=white)](https://ipeter.dev/moe-self-driving)
 
 - **Core System:** Developed a modular **Mixture-of-Experts (MoE)** architecture for autonomous driving in the CARLA simulator, utilizing specialized expert networks and a gating network for decision-making. Built with **PyTorch (DDP), CUDA, and Linux**.
 - **Data Contribution:** The project's pipeline resulted in two large-scale, public datasets for the autonomous driving research community:
