@@ -8,6 +8,8 @@ I build AI systems at the boundary of models, infrastructure, and evaluation, wi
 
 Currently working on GPU management, LLM observability, inference infrastructure at [Tensormesh](https://tensormesh.ai).
 
+Check out [Hostess](https://hostess.sh) - a better way to deploy stacks!
+
 ## Work
 
 - **Tensormesh** — integrated Phoenix into the observability stack with OpenInference tracing for LLM router traffic, plus SDK/CLI trace inspection and production rollout support.
