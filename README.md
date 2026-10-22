@@ -2,25 +2,30 @@
 
 ![](https://komarev.com/ghpvc/?username=immanuel-peter&style=flat-square)
 
-**CS & Physics @ University of Chicago · MTS Intern @ Tensormesh**
+**CS & Physics @ University of Chicago** · [ipeter.dev](https://ipeter.dev)
 
-I build AI systems at the boundary of models, infrastructure, and evaluation, with a growing focus on autonomy and real-time inference.
+I work on multimodal and physical AI: large-scale training, linear algebra, and inference systems.
 
-Currently working on GPU management, LLM observability, inference infrastructure at [Tensormesh](https://tensormesh.ai).
+## Now
 
-Check out [Hostess](https://hostess.sh) - a better way to deploy stacks!
+- MTS Intern @ [Tensormesh](https://tensormesh.ai), working on GPU management, LLM observability, and KV cache optimization for inference infrastructure.
+- Deepening into distributed training and multimodal architectures
 
-## Work
+## Open source
 
-- **Tensormesh** — integrated Phoenix into the observability stack with OpenInference tracing for LLM router traffic, plus SDK/CLI trace inspection and production rollout support.
-- **[Hostess](https://hostess.sh)** — Docker Compose for production.
-- **[Redis Operator](https://github.com/howl-cloud/redis-operator)** — Redis Kubernetes operator for managing instances at the pod level.
-- **[AutoMoE](https://github.com/immanuel-peter/self-driving-model)** — MoE-based self-driving system using PyTorch, CUDA, CARLA, and [Hugging Face datasets](https://hf.co/immanuelpeter).
-- **[Launchpad](https://trylaunchpad.xyz)** — AI research matching platform with semantic search and LLM-based fit scoring.
+- [LMCache](https://github.com/LMCache/LMCache): added coordinator APIs for [listing pinned cache entries](https://github.com/LMCache/LMCache/pull/4960) and [tracking per-key access counts](https://github.com/LMCache/LMCache/pull/4873).
+- [vLLM Production Stack](https://github.com/vllm-project/production-stack): added [router volume mounts for read-only root filesystems](https://github.com/vllm-project/production-stack/pull/975) and [fixed the default NVIDIA runtime class](https://github.com/vllm-project/production-stack/pull/974).
+- [Pyrefly](https://github.com/facebook/pyrefly): standardized the Rust [error-summary module and imports](https://github.com/facebook/pyrefly/pull/1370) from `summarise` to `summarize`.
+- [Brev CLI](https://github.com/brevdev/brev-cli): authored the core [rsync-first file transfers with automatic SCP fallback](https://github.com/brevdev/brev-cli/pull/423), preserving incremental transfers for repeated copies.
+
+## Projects
+
+- **[Vision Tower Bench](https://ipeter.dev/blog/vision-tower-bench)** compares frozen vision towers across recognition, geometry, cross-view correspondence, and occlusion to guide tower, layer, and projector choices before multimodal training. [Code](https://github.com/immanuel-peter/vision-tower-bench) · [Towers](https://huggingface.co/collections/immanuelpeter/vision-heads)
+- **[AutoMoE](https://github.com/immanuel-peter/self-driving-model)** is a 53M-parameter driving model with four perception experts, learned gating, and a trajectory policy. Trained experts on BDD100K and nuScenes, then adapted them to CARLA. Released [82K-frame multimodal](https://huggingface.co/datasets/immanuelpeter/carla-autopilot-multimodal-dataset) and [68K-frame image](https://huggingface.co/datasets/immanuelpeter/carla-autopilot-images) datasets.
+- **[Hostess](https://hostess.sh)** compiles a declarative stack file into Kubernetes workloads, builds container images, provisions and wires Postgres and Redis, and creates isolated PR preview environments through a GitHub App.
+- **[Redis Operator](https://github.com/howl-cloud/redis-operator)** manages Redis pods and persistent volumes directly, with standalone, Sentinel, and cluster modes and fencing-first failover to prevent split-brain.
+- **[Postplan](https://github.com/immanuel-peter/postplan)** provides an easy toolchain for agents to publish HTML artifacts and static assets through an authenticated `curl` requests.
 
 ## Links
 
-[![Website](https://img.shields.io/badge/Website-ipeter.dev-111?style=flat-square&logo=googleearth&logoColor=white)](https://ipeter.dev)
-[![Resume](https://img.shields.io/badge/Resume-PDF-111?style=flat-square&logo=readthedocs&logoColor=white)](https://ipeter.dev/resume.pdf)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Immanuel%20Peter-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/immanuel-peter)
-[![Email](https://img.shields.io/badge/Email-hello%40ipeter.dev-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:hello@ipeter.dev)
+[ipeter.dev](https://ipeter.dev) · [Resume](https://ipeter.dev/resume.pdf) · [LinkedIn](https://www.linkedin.com/in/immanuel-peter) · [Email](mailto:hello@ipeter.dev)
